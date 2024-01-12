@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: #414141;
+    color: #fff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    text-align: center;
+    margin-top: 5vmax
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px
+}
+
+header div.header_description {
+    color: #b4b4b4;
+    font-size: .9rem;
+    display: inline
+}
+
+header p.header_box span {
+    margin-left: 15px
+}
+
+header p.header_box_text {
+    font-size: 1rem;
+    width: 40%;
+    display: block;
+    text-align: center
+}
+
+section {
+    margin-top: 3rem;
+    padding: 2rem 0 2rem 5rem;
+    height: 100%;
+    width: 100%;
+    min-width: 436px;
+    background-color: #313131;
+    color: #cfcfcf;
+    display: block
+}
+
+section div.section_title {
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin-bottom: 50px
+}
+
+section div.section_title h1 {
+    margin-top: 1rem;
+    font-size: 2.5rem
+}
+
+div.section_planet {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+
+div.section_planet h1 {
+    margin-left: 0
+}
+
+div.section_planet img {
+    width: 20%
+}
+
+div.section_planet span.text {
+    position: absolute;
+    width: 30%;
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #272727;
+    padding: 2rem 2rem 1rem 0;
+    min-height: 200px;
+    min-width: 436px;
+    padding-bottom: 4rem;
+    display: block;
+    margin-top: -10px
+}
+
+footer div.pages {
+    position: absolute;
+    text-align: left;
+    display: block;
+    margin-left: 35%
+}
+
+footer div.pages h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem
+}
+
+footer div.pages a {
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 1.1rem
+}
+
+footer div.contact {
+    position: absolute;
+    text-align: left;
+    display: block;
+    margin-left: 45%;
+    color: #b4b4b4;
+    font-size: 1.05rem
+}
+
+footer div.contact h1 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 2rem
+}
+
+footer div.sources {
+    position: absolute;
+    text-align: left;
+    display: block;
+    margin-left: 64%;
+    color: #b4b4b4;
+    font-size: 1.05rem
+}
+
+footer div.sources h1 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 2rem
+}
+
+footer div.sources a {
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 1.1rem
+}
+
+footer div.rights_box {
+    text-align: center;
+    padding-right: 300px;
+    padding-top: 170px;
+    display: block
+}
+
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 10px
+}
+
+footer li i {
+    margin-right: 10px;
+    display: block
+}
+
+footer div.rights_box span.rights {
+    position: absolute;
+    top: 100
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 700
+}
+
+@media only screen and (max-width:1000px) {
+    header {
+        padding: 0;
+        width: auto
+    }
+
+    header p.header_box_text {
+        padding: 0;
+        width: auto
+    }
+
+    section {
+        width: 100%;
+        padding: 2rem 0 0 1rem;
+        display: block
+    }
+
+    div.section_planet {
+        width: auto;
+        margin-left: 0;
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    section div.section_title {
+        width: auto;
+        margin: 0 2rem 0 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 5rem
+    }
+
+    div.section_title span {
+        width: auto
+    }
+
+    div.section_planet span.text {
+        display: block;
+        position: relative;
+        width: auto
+    }
+
+    div.section_planet img {
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%
+    }
+
+    hr {
+        width: 50%
+    }
+
+    footer {
+        margin-top: -31px;
+        padding: 0;
+        text-align: left
+    }
+
+    footer div.pages {
+        position: absolute;
+        left: 0;
+        margin-left: 0
+    }
+
+    footer div.contact {
+        position: absolute;
+        left: 0;
+        margin-left: 30%
+    }
+}
